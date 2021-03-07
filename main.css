@@ -1,0 +1,244 @@
+/*CSS reset settings here*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+    font-family: 'Abel', sans-serif;
+    
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+    .row{
+        
+            outline: dotted red ;
+        
+    }
+    
+    .col-sm{
+            outline: dotted rgb(0, 255, 115) ;
+
+    }
+
+    .logobox{
+        
+        width: 200px;
+        height: 100px;
+        
+    }
+
+    .boxgraphic{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: 3px solid black;
+        border-radius: 5px; 
+        margin-left: 5px;
+    }
+    .bowl{
+        
+        display: inline-block;
+        
+    }
+    .poke{
+
+        color:red;
+    }
+
+
+    
+    .nava ul li {
+        
+        list-style-type: none;
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: 30px;
+
+    }
+    .nava ul p{
+        margin-left: 10px;
+        
+    }
+    .nava ul a{
+        color: black;
+        text-decoration: none;
+    }
+    .video{
+        
+        
+        background-color: black;
+        width: 926px;
+        height: 450px;
+
+    }
+    .bottomcontent{
+        display: inline-flex;
+        flex-wrap: wrap;
+
+    }
+    .left{
+        display: inline-block;
+        background-color: #2b78e4;
+        margin: 10px;
+        width: 500px;
+        height: 300px;
+        border-radius: 20px;
+
+    }
+
+    .left h2{
+        font-size: 50px;
+        margin-left: 80px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: white;
+
+    }
+
+    .right{
+        display: inline-block;
+        background-color: #cf2a27;
+        margin: 10px;
+        margin-right: 25px;
+        width: 325px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .bottomcontent .left p{
+        color: white;
+        font-size: 35px;
+        margin: 10px;
+    }
+
+    .bottomcontent .first{
+        margin-left: 30px;
+        display: flex;
+    }
+
+    .bottomcontent .first img{
+        width: 50px;
+        height: 50px;
+    }
+    .bottomcontent .first p{
+        margin-top: 10px;
+
+    }
+
+    .bottomcontent .second{
+        margin-left: 30px;
+        display: flex;
+    }
+
+    .bottomcontent .second img{
+        width: 50px;
+        height: 60px;
+        margin-left: 50px;
+    }
+
+    .bottomcontent .second p{
+        margin-top: 10px;
+
+    }
+
+    .bottomcontent .third{
+        margin-left: 30px;
+        display: flex;
+    }
+
+    .bottomcontent .third img{
+        width: 50px;
+        height: 50px;
+        margin-left: 110px;
+    }
+    .right h2{
+        display: inline-flex;
+        color: white;
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 55px;
+
+    }
+
+    .right .pword{
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 30px;
+        color:white;
+    }
+    .right p{
+        color:white; 
+        font-size: 25px;
+        margin-left: 20px;
+
+    }
+    .right img{
+        margin-left: 250px;
+        width: 50px;
+        
+    }
+
+    .hiddennav{
+        display: none;
+    }
+    
+    @media only screen and (max-width:1199px){
+        .nava{
+            display: none;
+        }
+        .hiddennav{
+            display: flex;
+            justify-content: center;
+        }
+        
+        .bottomcontent{
+            display: flex;
+            justify-content: center;
+            
+        }
+        
+        .video video{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+    }
+    @media only screen and (max-width:768px){
+        .bottomcontent .left p{
+            font-size: 25px;
+            width: 100%;
+        }
+    }
+
+    @media only screen and (max-width:500px){
+        .bottomcontent .left p{
+            font-size: 20px;
+            
+        }
+        .bottomcontent .left h2{
+            font-size: 30px;
+            
+        }
+    }
